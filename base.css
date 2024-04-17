@@ -1,0 +1,39 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #fbfbfb;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(42, 136, 94);
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgba(173, 22, 248, 0.925);
+    padding: 10px 20px 0px;
+    color: rgb(2, 2, 11);
+}
+.header {
+    background-color: rgba(144, 8, 248, 0.87);
+    min-height: 50px;
+}
+.content {
+    background-color: rgb(219, 169, 248);
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(198, 129, 255);
+    min-height: 150px;
+}
